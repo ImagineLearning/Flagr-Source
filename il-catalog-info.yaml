@@ -1,0 +1,39 @@
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  # REQUIRED
+  # https://backstage.io/docs/features/software-catalog/descriptor-format#name-required
+  name: flagr
+  # https://backstage.io/docs/features/software-catalog/descriptor-format#description-optional
+  description: Flagr is an open source Go service that delivers the right experience to the right entity and monitors the impact.
+  # https://backstage.io/docs/features/software-catalog/descriptor-format#title-optional
+  title: Flagr
+  annotations:
+    github.com/project-slug: ImagineLearning/Flagr-Source
+    # If opsgenie-service tag is added, add this annotation
+    opsgenie.com/component-selector: 'entity:Flagr'
+    imaginelearning.engineering/opsgenie-service-owner: 'il-atlas'
+    imaginelearning.engineering/opsgenie-additional-responders: 'spartan-sre-sa'
+    imaginelearning.engineering/opsgenie-products-impacted: 'imagine-languager-and-literacy,imagine-espanol,imagine-math-facts'
+    # If you want to see Kubernetes Resources associated to the component you can add either of the following annotations
+    #'backstage.io/kubernetes-id': <BACKSTAGE_ENTITY_NAME> ### THIS TAG REQUIRES YOU TO ADD A LABEL TO YOUR KUBERNETES RESOURCES
+    # Read more about that here https://backstage.io/docs/features/kubernetes/configuration#common-backstageiokubernetes-id-label
+    # Or you can add this annotation
+    #backstage.io/kubernetes-label-selector: 'app=my-app,component=front-end'
+  tags:
+    # Add this tag if this service should be added to OpsGenie services for alerting
+    - opsgenie-service
+    - go
+    - vue
+    - shell
+    - javascript
+    - html
+spec:
+  type: service
+  lifecycle: production
+  owner: atlas
+  dependsOn:
+    - component:imagine-language-and-literacy
+    - component:imagine-espanol
+    - component:imagine-math-facts
+
