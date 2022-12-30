@@ -12,7 +12,7 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20180315120708-ccb8e960c48f // indirect
 	github.com/auth0/go-jwt-middleware v0.0.0-20170425171159-5493cabe49f7
 	github.com/avast/retry-go v2.2.0+incompatible
-	github.com/aws/aws-sdk-go v1.15.32
+	github.com/aws/aws-sdk-go v1.33.0
 	github.com/brandur/simplebox v0.0.0-20150921201729-84e9865bb03a
 	github.com/bsm/ratelimit v2.0.0+incompatible
 	github.com/caarlos0/env v3.3.0+incompatible
@@ -27,7 +27,6 @@ require (
 	github.com/evalphobia/logrus_sentry v0.4.6
 	github.com/getsentry/raven-go v0.0.0-20180903072508-084a9de9eb03
 	github.com/globalsign/mgo v0.0.0-20180905125535-1ca0a4f7cbcb // indirect
-	github.com/go-ini/ini v1.38.2 // indirect
 	github.com/go-openapi/analysis v0.0.0-20180801175213-7c1bef8f6d9f // indirect
 	github.com/go-openapi/errors v0.0.0-20180827163446-87bb65328877
 	github.com/go-openapi/jsonpointer v0.0.0-20180322222829-3a0015ad55fa // indirect
@@ -38,7 +37,6 @@ require (
 	github.com/go-openapi/strfmt v0.0.0-20180910212104-776114108ccc
 	github.com/go-openapi/swag v0.0.0-20180908172849-dd0dad036e67
 	github.com/go-openapi/validate v0.0.0-20180825180342-e0648ff40507
-	github.com/go-sql-driver/mysql v1.4.0 // indirect
 	github.com/gohttp/pprof v0.0.0-20141119085724-c9d246cbb3ba
 	github.com/gorilla/mux v1.7.1 // indirect
 	github.com/jessevdk/go-flags v1.4.0
@@ -67,16 +65,15 @@ require (
 	github.com/sirupsen/logrus v1.2.0
 	github.com/smartystreets/goconvey v0.0.0-20190330032615-68dc04aab96a // indirect
 	github.com/spf13/cast v1.3.0
-	github.com/stretchr/testify v1.3.0
+	github.com/stretchr/testify v1.5.1
 	github.com/tinylib/msgp v1.1.0 // indirect
 	github.com/urfave/negroni v0.3.0
 	github.com/yadvendar/negroni-newrelic-go-agent v0.0.0-20160803090806-3dc58758cb67
 	github.com/zhouzhuojie/conditions v0.0.0-20190705160302-784df330cb87
 	github.com/zhouzhuojie/withtimeout v0.0.0-20190405051827-12b39eb2edd5
-	golang.org/x/net v0.0.0-20190313220215-9f648a60d977
+	golang.org/x/net v0.0.0-20200202094626-16171245cfb2
 	golang.org/x/sys v0.0.0-20190312061237-fead79001313 // indirect
 	google.golang.org/api v0.3.1
 	google.golang.org/grpc v1.19.0
 	gopkg.in/DataDog/dd-trace-go.v1 v1.9.0
-	gopkg.in/ini.v1 v1.42.0 // indirect
 )
