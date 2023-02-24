@@ -73,8 +73,7 @@ require (
 	github.com/yadvendar/negroni-newrelic-go-agent v0.0.0-20160803090806-3dc58758cb67
 	github.com/zhouzhuojie/conditions v0.0.0-20190705160302-784df330cb87
 	github.com/zhouzhuojie/withtimeout v0.0.0-20190405051827-12b39eb2edd5
-	golang.org/x/net v0.0.0-20190313220215-9f648a60d977
-	golang.org/x/sys v0.0.0-20190312061237-fead79001313 // indirect
+	golang.org/x/net v0.7.0
 	google.golang.org/api v0.3.1
 	google.golang.org/grpc v1.19.0
 	gopkg.in/DataDog/dd-trace-go.v1 v1.9.0
