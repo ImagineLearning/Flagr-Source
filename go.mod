@@ -3,7 +3,7 @@ module github.com/checkr/flagr
 go 1.12
 
 require (
-	cloud.google.com/go v0.37.4
+	cloud.google.com/go/pubsub v1.27.1
 	github.com/DataDog/datadog-go v0.0.0-20180330214955-e67964b4021a
 	github.com/PuerkitoBio/purell v1.1.0 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
@@ -46,7 +46,6 @@ require (
 	github.com/jinzhu/inflection v0.0.0-20180308033659-04140366298a // indirect
 	github.com/jinzhu/now v1.0.0 // indirect
 	github.com/jpillora/backoff v0.0.0-20170918002102-8eab2debe79d // indirect
-	github.com/kr/pretty v0.1.0 // indirect
 	github.com/lib/pq v1.0.0 // indirect
 	github.com/mailru/easyjson v0.0.0-20180823135443-60711f1a8329 // indirect
 	github.com/mattn/go-sqlite3 v1.9.0 // indirect
@@ -61,22 +60,20 @@ require (
 	github.com/phyber/negroni-gzip v0.0.0-20180113114010-ef6356a5d029
 	github.com/prashantv/gostub v0.0.0-20170112001514-5c68b99bb088
 	github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829
-	github.com/prometheus/client_model v0.0.0-20190129233127-fd36f4220a90 // indirect
 	github.com/prometheus/procfs v0.0.0-20190219184716-e4d4a2206da0 // indirect
 	github.com/rs/cors v1.5.0
 	github.com/sirupsen/logrus v1.2.0
 	github.com/smartystreets/goconvey v0.0.0-20190330032615-68dc04aab96a // indirect
 	github.com/spf13/cast v1.3.0
-	github.com/stretchr/testify v1.3.0
+	github.com/stretchr/testify v1.8.1
 	github.com/tinylib/msgp v1.1.0 // indirect
 	github.com/urfave/negroni v0.3.0
 	github.com/yadvendar/negroni-newrelic-go-agent v0.0.0-20160803090806-3dc58758cb67
 	github.com/zhouzhuojie/conditions v0.0.0-20190705160302-784df330cb87
 	github.com/zhouzhuojie/withtimeout v0.0.0-20190405051827-12b39eb2edd5
-	golang.org/x/net v0.0.0-20190313220215-9f648a60d977
-	golang.org/x/sys v0.0.0-20190312061237-fead79001313 // indirect
-	google.golang.org/api v0.3.1
-	google.golang.org/grpc v1.19.0
+	golang.org/x/net v0.5.0
+	google.golang.org/api v0.103.0
+	google.golang.org/grpc v1.53.0
 	gopkg.in/DataDog/dd-trace-go.v1 v1.9.0
 	gopkg.in/ini.v1 v1.42.0 // indirect
 )
